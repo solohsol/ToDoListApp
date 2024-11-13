@@ -12,13 +12,13 @@ public class ToDoListApp extends JFrame implements ActionListener {
     private JList<String> taskList;
 
     public ToDoListApp() {
-        // Set up the main frame
+        // main frame
         setTitle("To-Do List");
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
-        // Input area for tasks
+        //  tasks
         JPanel inputPanel = new JPanel();
         inputPanel.setLayout(new BorderLayout());
 
